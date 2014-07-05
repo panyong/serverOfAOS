@@ -79,6 +79,14 @@ public class CoursesForClient {
 	public void setState(String state) {
 		this.state = state;
 	}
+	@Override
+	public String toString() {
+		return "CoursesForClient [courseNo=" + courseNo + ", courseName="
+				+ courseName + ", teacherName=" + teacherName + ", classroom="
+				+ classroom + ", weekDay=" + weekDay + ", lessonBegin="
+				+ lessonBegin + ", lessonEnd=" + lessonEnd + ", state=" + state
+				+ "]";
+	}
     
     
     
